@@ -1,5 +1,9 @@
 #greeting {
   background-color: #d47500;
+  border-radius: 5px;
   color: #553529;
   font-family: Helvetica, Verdana, sans-serif;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  width: 200px;
 }

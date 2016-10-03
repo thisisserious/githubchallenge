@@ -4,9 +4,11 @@
 
 button {
     background-color: #553529;
+    border-radius: 35px;
     color: #d47500;
     font-size: 2em;
     height: 2em;
+    width: auto;
 }
 
 #container {

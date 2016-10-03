@@ -1,3 +1,14 @@
+*:focus {
+  outline: none;
+}
+
+button {
+    background-color: #553529;
+    color: #d47500;
+    font-size: 2em;
+    height: 2em;
+}
+
 #container {
   margin: auto;
   text-align: center;

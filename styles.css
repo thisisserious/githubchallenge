@@ -32,3 +32,9 @@ button {
   /*text-align: center;*/
   /*width: 200px;*/
 }
+
+#affirmation, #fail {
+  background-color: #DFDBE5;
+  height: 50px;
+  width: 50px;
+}

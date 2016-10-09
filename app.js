@@ -1,4 +1,4 @@
-console.log('Up & running!');
+console.log('app.js working');
 
 $(function () {
   $('button').on('click', function () {

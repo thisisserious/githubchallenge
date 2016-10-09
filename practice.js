@@ -1,5 +1,5 @@
 // This is my JavaScript practice file
-var test = 'It\'s working!';
+var test = 'practice.js working';
 console.log('Test:', test);
 
 // Reverse Number Challenge

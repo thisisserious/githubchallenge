@@ -49,3 +49,15 @@ console.log('Today is: ' + days[date.getDay()] + '.\n' + 'The time is: ' + hour
 + ':' + mins + ':' + secs);
 
 // End of get current day of the week & time
+
+// Calculate Age
+function calculateAge(birthYear, currentYear) {
+  var date = new Date();
+  var currentYear = date.getFullYear();
+  var birthYear = 1983;
+  return 'I am ' + (currentYear - birthYear) + ' years old.';
+}
+
+console.log(calculateAge());
+
+// End of Calculate Age

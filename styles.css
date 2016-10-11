@@ -18,6 +18,10 @@ button {
     width: auto;
 }
 
+h3 {
+  text-align: center;
+}
+
 #container {
   /*margin: auto;*/
   text-align: center;
@@ -27,14 +31,15 @@ button {
   /*background-color: #d47500;*/
   border-radius: 5px;
   color: #553529;
-  font-family: Helvetica, Verdana, sans-serif;
+  /*font-family: Helvetica, Verdana, sans-serif;*/
   /*margin: 10px auto 10px auto;*/
   /*text-align: center;*/
   /*width: 200px;*/
 }
 
-#affirmation, #fail {
-  background-color: #DFDBE5;
-  height: 50px;
-  width: 50px;
+.text {
+  background-color: #DFDBE5
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
 }

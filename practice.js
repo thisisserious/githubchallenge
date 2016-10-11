@@ -61,3 +61,37 @@ function calculateAge(birthYear, currentYear) {
 console.log(calculateAge());
 
 // End of Calculate Age
+
+// Switch Practice
+var today = date.getDay();
+var findDay = function (today) {
+  switch (today) {
+  case 0:
+    today = days[0];
+    break;
+  case 1:
+    today = days[1];
+    break;
+  case 2:
+    today = days[2];
+    break;
+  case 3:
+    today = days[3];
+    break;
+  case 4:
+    today = days[4];
+    break;
+  case 5:
+    today = days[5];
+    break;
+  case 6:
+    today = days[6];
+    break;
+  default:
+    text = 'boo';
+}
+};
+
+console.log(findDay(today));
+
+// End of Switch Practice

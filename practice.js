@@ -64,7 +64,9 @@ console.log(calculateAge());
 
 // Switch Practice
 var today = date.getDay();
-var findDay = function (today) {
+
+// console.log('today:', today);
+var findDay = function () {
   switch (today) {
   case 0:
     today = days[0];
@@ -88,10 +90,12 @@ var findDay = function (today) {
     today = days[6];
     break;
   default:
-    text = 'boo';
+    today = 'boo';
+    break;
 }
 };
 
-console.log(findDay(today));
+findDay(today);
+console.log('Today is ' + today + '!');
 
 // End of Switch Practice

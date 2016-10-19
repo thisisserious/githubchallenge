@@ -99,3 +99,14 @@ findDay(today);
 console.log('Today is ' + today + '!');
 
 // End of Switch Practice
+
+var array = [];
+
+function arrayPop() {
+  for (var i = 0; i <= 5; i++) {
+    array.push(i);
+  };
+}
+
+arrayPop();
+console.log(array);

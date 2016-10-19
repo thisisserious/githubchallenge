@@ -100,13 +100,20 @@ console.log('Today is ' + today + '!');
 
 // End of Switch Practice
 
+// Array, Function, and For Loop Practice
+
 var array = [];
+var index = 0;
 
 function arrayPop() {
   for (var i = 0; i <= 5; i++) {
     array.push(i);
+    index += i;
+    console.log('Index:', index);
   };
 }
 
 arrayPop();
 console.log(array);
+
+// End of Array, Function, and For Loop Practice

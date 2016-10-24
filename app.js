@@ -9,6 +9,6 @@ $(function () {
 
 function appendDom() {
   var $div = $('<div class="text"></div>');
-  $div.append('<div class="text">I am here</div>');
+  $div.append('<div class="text">Comparison is the thief of joy.</div>');
   $('section').append($div);
 }

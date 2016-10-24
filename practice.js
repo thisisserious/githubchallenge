@@ -13,7 +13,7 @@ function reverseNumber(n) {
 var newNum = reverseNumber(32243);
 console.log('Reverse Number:', reverseNumber(32243));
 
-$('button').on('click', function () {
+$('button').on('click', function() {
   if (newNum == 34223) {
     $('#greeting').append('<div id="affirmation"></div>');
   } else {
@@ -41,12 +41,13 @@ $('button').on('click', function () {
 
 // Get current day of the week & time
 var date = new Date();
-var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
+'Saturday'];
 var hour = date.getHours();
 var mins = date.getMinutes();
 var secs = date.getSeconds();
-console.log('Today is: ' + days[date.getDay()] + '.\n' + 'The time is: ' + hour
-+ ':' + mins + ':' + secs);
+console.log('Today is: ' + days[date.getDay()] + '.\n' + 'The time is: ' +
+hour + ':' + mins + ':' + secs);
 
 // End of get current day of the week & time
 
@@ -66,7 +67,7 @@ console.log(calculateAge());
 var today = date.getDay();
 
 // console.log('today:', today);
-var findDay = function () {
+var findDay = function() {
   switch (today) {
   case 0:
     today = days[0];
@@ -114,6 +115,6 @@ function arrayPop() {
 }
 
 arrayPop();
-console.log(array);
+console.log('array', array);
 
 // End of Array, Function, and For Loop Practice

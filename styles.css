@@ -17,6 +17,7 @@ button {
     font-size: 2em;
     height: 2em;
     width: auto;
+    padding: 10px;
 }
 
 section {

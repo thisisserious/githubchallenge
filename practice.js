@@ -118,3 +118,16 @@ arrayPop();
 console.log('array', array);
 
 // End of Array, Function, and For Loop Practice
+
+// Random function practice
+
+var concatenate = function() {
+  var a = 'spooky';
+  var b = 'scary';
+  var c = 'skeletons';
+  console.log(a + " " + b + " " + c + "!");
+};
+
+concatenate();
+
+// End of random function practice

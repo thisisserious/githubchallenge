@@ -125,9 +125,35 @@ var concatenate = function() {
   var a = 'spooky';
   var b = 'scary';
   var c = 'skeletons';
-  console.log(a + " " + b + " " + c + "!");
+  console.log(a + ' ' + b + ' ' + c + '!');
 };
 
 concatenate();
 
 // End of random function practice
+
+// Eloquent JavaScript Add 1-10 (Introduction)
+var total = 0;
+var count = 1;
+while (count <= 10) {
+  total += count;
+  count += 1;
+}
+console.log('Add 1-10:', total);
+// --> 55
+
+// End of Add 1-10 while loop
+
+// Eloquent JavaScript function example (Introduction)
+function fac(n) {
+  if (n == 0) {
+    return 1;
+  } else {
+    return fac(n - 1) * n;
+  }
+}
+
+console.log(fac(8));
+// --> 40320
+
+// End of intro function example

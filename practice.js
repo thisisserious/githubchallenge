@@ -157,3 +157,10 @@ console.log(fac(8));
 // --> 40320
 
 // End of intro function example
+
+// Eloquent JavaScript Chapter 1 examples
+var exponent = 2.998e8;
+console.log('Exponent:', exponent);
+
+var precedence = 1 + 1 == 2 && 10 * 10 > 50;
+console.log('Precedence:', precedence);
